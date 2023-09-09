@@ -5,7 +5,7 @@ import { PUBLIC_APIS, GET_REFRESH_TOKEN, ACCESS_TOKEN, REFRESH_TOKEN } from './c
 import { logoutUser } from './userService';
 
 // replace with your API base URL
-const baseURL = process.env.REACT_APP_API_URL || 'http://lb-133-237-79-216.lbaas.jpe2c.rdcnw.net/do-api-wrapper/api/v1/';
+const baseURL = process.env.REACT_APP_API_URL;
 
 const instance = axios.create({
   baseURL,
@@ -80,7 +80,7 @@ instance.interceptors.response.use(
 // Define a function to refresh the access token
 export const refreshAccessToken = () => {
   const refreshToken = secureLocalStorage.getItem(REFRESH_TOKEN);
-  return axios.post(`${process.env.REACT_APP_API_URL || 'http://lb-133-237-79-216.lbaas.jpe2c.rdcnw.net/do-api-wrapper/api/v1/'}${GET_REFRESH_TOKEN}`, { refreshToken })
+  return axios.post(`${process.env.REACT_APP_API_URL}${GET_REFRESH_TOKEN}`, { refreshToken })
     .then((response) => {
       const { accessToken, refreshToken } = response.data;
       secureLocalStorage.setItem(ACCESS_TOKEN, accessToken);
