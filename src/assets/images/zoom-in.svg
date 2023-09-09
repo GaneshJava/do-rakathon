@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.209" height="37.575" viewBox="0 0 37.209 37.575">
+    <defs>
+        <filter id="ku4ghi7tia" x="0" y="0" width="37.209" height="37.575" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="Group 3076">
+        <g data-name="Group 3039">
+            <g style="filter:url(#ku4ghi7tia)" data-name="Group 2934">
+                <g data-name="Rectangle 2194" transform="translate(9 6)" style="stroke:#f59600;fill:none">
+                    <rect width="19.209" height="19.575" rx="2" style="stroke:none"/>
+                    <rect x=".5" y=".5" width="18.209" height="18.575" rx="1.5" style="fill:none"/>
+                </g>
+            </g>
+        </g>
+        <path data-name="Path 2798" d="M367.993-13659.06h9.969" transform="translate(-354.434 13674.846)" style="fill:#fff"/>
+        <path data-name="Path 2798 - Outline" d="M377.943-13658.56h-9.969a.49.49 0 0 1-.48-.5.49.49 0 0 1 .48-.5h9.969a.49.49 0 0 1 .48.5.49.49 0 0 1-.48.5z" transform="translate(-354.414 13674.846)" style="fill:#f59600"/>
+        <path data-name="Path 2806" d="M0 0h10.068" transform="rotate(-90 19.662 1.113)" style="fill:#fff"/>
+        <path data-name="Path 2806 - Outline" d="M10.568.96H.5A.49.49 0 0 1 0 .48.49.49 0 0 1 .5 0h10.068a.49.49 0 0 1 .5.48.49.49 0 0 1-.5.48z" transform="rotate(-90 19.672 1.603)" style="fill:#f59600"/>
+    </g>
+</svg>

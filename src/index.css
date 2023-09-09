@@ -1,0 +1,235 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'react-responsive-modal/styles.css';
+@import 'react-date-range/dist/styles.css';
+@import 'react-date-range/dist/theme/default.css';
+
+:root {
+  --primary-font: Rakuten Sans UI;
+  --primary-bg-color: #eee4e4;      /* Application background color */
+  --secondary-bg-color: #d7d7e5;    /* charts/cards background color */
+  --tertiary-bg-color: #6c757d;     /* Header nav background color */
+  --quaternary-bg-color: #424242;   /* table header/textfield background color */
+  --primary-text-color: #000000;    /* Main headlines */
+  --secondary-text-color: #a3a3a3;  /* Sub headlines */
+  --tertiary-text-color: #000000;   /* Details text lines */
+  --quaternary-text-color: #737374; /* Helper text lines */
+  --primary-theme-color: #6ae46e;
+  --secondary-theme-color: #c4b7b7;
+  --primary-border-color: #000000;
+  --secondary-border-color: #ced4da;
+  --error-text-color: #ef4444;
+  --primary-btn-color: #000000;
+  --primary-btn-text: var(--primary-bg-color);
+  --secondary-btn-color: var(--primary-bg-color);
+  --secondary-btn-text: var(--primary-btn-color);
+  --tertiary-btn-text: #6ae46e;
+  --primary-radius-size: 6px;
+  --status-radius-size: 16px;
+  --primary-btn-padding: 8px 12px;
+  --small-font-size: 0.625rem;    /* 10px */
+  --medium-font-size: 0.75rem;    /* 12px */
+  --primary-font-size: 0.875rem;  /* 14px */
+  --large-font-size: 1rem;        /* 16px */
+  --xlarge-font-size: 2rem;       /* 32px */
+}
+
+@font-face {
+  font-family: 'Rakuten Sans UI';
+  src: url('./assets/fonts/Rakuten_Sans_UI_Rg.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+@font-face {
+  font-family: RakutenLight;
+  src: local('RakutenSans_Light'),
+    url(assets/fonts/RakutenSans_Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: RakutenRegular;
+  src: local('RakutenSans_Regular'),
+    url(assets/fonts/RakutenSans_Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: RakutenSemibold;
+  src: local('RakutenSans_Semibold'),
+    url(assets/fonts/RakutenSans_Semibold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: RakutenBold;
+  src: local('RakutenSans_Bold'),
+    url(assets/fonts/RakutenSans_Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: RakutenBlack;
+  src: local('RakutenSans_Black'),
+    url(assets/fonts/RakutenSans_Black.ttf) format("truetype");
+}
+
+.custom_astrick::after {
+  content: "*";
+  margin-left: 1px !important;
+  color: red;
+}
+
+.force-skyblue > path {
+  stroke: #737374 !important;
+  color: #737374;
+}
+
+@font-face {
+  font-family: RakutenSansUISemiBold;
+  src: local('Rakuten_Sans_UI_SemiBold'),
+    url(assets/fonts/Rakuten_Sans_UI_SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: RakutenSansUiBold;
+  src: local('Rakuten_Sans_UI_Bold'),
+    url(assets/fonts/Rakuten_Sans_UI_Bold.ttf) format("truetype");
+}
+
+.force-magin-zero {
+  margin: 0 !important;
+}
+
+#root ::-webkit-scrollbar-thumb, html ::-webkit-scrollbar-thumb {
+  background: #737374;
+  border-radius: 0.25rem;
+}
+#root ::-webkit-scrollbar, html ::-webkit-scrollbar {
+  width: 0.20rem;
+  height: 0.20rem;
+}
+
+.footer-shadow {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16);
+  background-color: #2d3032;
+}
+
+
+
+.rules-select-custom__control {
+  width: 100% !important;
+  min-height: 35px !important;
+  border-radius: 3px;
+  border: transparent !important;  
+  background-color: #1e2021 !important;
+  font-size: 16px;
+}
+
+.rules-select-custom__multi-value {
+  background-color: #737374 !important;
+}
+
+.rules-select-custom__control--is-focused{
+  box-shadow:none !important;
+}
+
+.rules-select-custom__indicator-separator {
+  display: none;
+}
+
+.rules-select-custom__menu, .rules-select-custom__option--is-focused {
+  background-color: #262729 !important;
+}
+.rules-select-custom__option--is-selected {
+  background-color: #737374 !important;
+  color: black !important;
+  cursor: pointer;
+}
+
+.rules-select-custom__option:not(.rules-select-custom__option--is-selected):hover {
+  background-color: #424242 !important;
+}
+
+.rules-select-custom__single-value {
+  color: white !important;
+  font-weight: 300;
+  cursor: pointer;
+}
+.rules-select-custom__input {
+  color: transparent !important;
+}
+
+
+.custom-loading {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background: #737374;
+  opacity: 1;
+  border-radius: 50%;
+  animation: custom_loading 1.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+
+@keyframes custom_loading {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    width: 58px;
+    height: 58px;
+    opacity: 0;
+  }
+}
+
+.Toastify__toast-container {
+  width: 28rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.apexchart-parent-div_freshness .apexcharts-gridline {
+  stroke-width: 3px; /* Adjust the value to increase the thickness */
+}
+.apexchart-parent-div_freshness .apexcharts-grid-borders > line {
+    stroke-width: 1.5px !important; /* Adjust the value to increase the thickness */
+}
+.apexchart-parent-div_freshness .apexcharts-tooltip-text-y-label, .apexchart-parent-div_datahealth_ .apexcharts-tooltip-text-y-label {
+  display: none !important;
+}
+
+.apexcharts-zoom-icon {
+  display: none !important;
+}
+
+.react-chatbot-kit-chat-input{
+  width: 100%;
+    padding: 12.5px;
+    border: none;
+    font-size: 0.85rem;
+    border-top: 1px solid #d8d8d8;
+    border-bottom-left-radius: 5px;
+    color: black;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  height: 650px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.react-chatbot-kit-chat-container {
+  position: relative;
+  width: 700px;
+}

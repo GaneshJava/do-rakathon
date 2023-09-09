@@ -1,0 +1,76 @@
+.field-expander-table .p-datatable-thead {
+    display: none !important;
+}
+
+.field-expander-table .p-selection-column {
+    width: 2rem !important;
+}
+
+.field-expander-table .p-datatable-tbody tr .nested-table-cell:nth-child(3) {
+    width: 31.6% !important;
+}
+
+.field-expander-table .p-datatable-tbody tr .nested-table-cell:nth-child(4) {
+    width: 40% !important;
+}
+
+
+/*  */
+.field-expander-table .p-datatable-thead {
+    display: none !important;
+}
+.field-expander-table .p-selection-column {
+    width: 2rem !important;
+}
+
+.field-expander-table .p-datatable-tbody tr .nested-table-cell:nth-child(3) {
+    width: 31.6% !important;
+}
+.field-expander-table .p-datatable-tbody tr .nested-table-cell:nth-child(4) {
+    width: 40% !important;
+}
+
+.inputtextarea {
+    background-color: var(--secondary-bg-color) !important;
+    border: 1px solid #424242 !important;
+}
+
+.monitordropdown {
+    background-color: var(--secondary-bg-color) !important;
+}
+
+.monitordropdown{
+    background-color:#18181b!important;
+    border: 1px solid #424242 !important;
+}
+
+
+.monitor-form .p-dropdown-label {
+    padding-top: 7px;
+}
+
+.monitor-listing-overview  td {
+    padding: 8px 1rem !important;
+
+}
+
+.calender-monitor .rdrMonthsVertical{
+    align-items: center !important;
+}
+
+.rdrSelected{
+    background-color: #424242 !important;
+    border:none!important;
+}
+
+.rdrDayToday .rdrDayNumber span:after{
+    background-color: white !important;
+}
+
+.p-dropdown .p-dropdown-label.p-placeholder {
+    background-color:  #18181b !important;
+}
+
+/* .p-datatable-tbody .parent-table-row:last-child td .ellipsis-menu{
+    top: -68px;
+} */

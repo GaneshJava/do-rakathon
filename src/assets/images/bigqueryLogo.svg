@@ -1,0 +1,28 @@
+<svg data-name="Group 6073" xmlns="http://www.w3.org/2000/svg" width="59.366" height="52.46" viewBox="0 0 59.366 52.46">
+    <defs>
+        <clipPath id="89z7dm3vna">
+            <path data-name="Rectangle 4144" style="fill:none" d="M0 0h59.366v52.46H0z"/>
+        </clipPath>
+        <clipPath id="5jru5cy4cb">
+            <path data-name="Rectangle 4143" style="fill:none" d="M0 0h59.365v52.46H0z"/>
+        </clipPath>
+        <clipPath id="r6dgaern2c">
+            <path data-name="Rectangle 4142" style="fill:none" d="M0 0h31.855v33.426H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 6072" style="clip-path:url(#89z7dm3vna)">
+        <g data-name="Group 6071">
+            <g data-name="Group 6070" style="clip-path:url(#5jru5cy4cb)">
+                <path data-name="Path 9138" d="M13.432 50.529.517 28.162a3.867 3.867 0 0 1 0-3.863L13.432 1.933A3.862 3.862 0 0 1 16.77 0h25.84a3.86 3.86 0 0 1 3.326 1.933L58.849 24.3a3.867 3.867 0 0 1 0 3.863L45.935 50.529A3.86 3.86 0 0 1 42.6 52.46H16.761a3.865 3.865 0 0 1-3.333-1.931z" style="fill:#3169b2"/>
+                <g data-name="Group 6069" style="opacity:.1;isolation:isolate">
+                    <g data-name="Group 6068">
+                        <g data-name="Group 6067" style="clip-path:url(#r6dgaern2c)" transform="translate(22.641 19.027)">
+                            <path data-name="Path 9139" d="M27.622 10.515s3.59 8.612-1.3 13.492-13.8 1.757-13.8 1.757L30.64 43.941h1.84a3.862 3.862 0 0 0 3.339-1.931l8.548-14.8z" transform="translate(-12.512 -10.515)" style="fill:#040506"/>
+                        </g>
+                    </g>
+                </g>
+                <path data-name="Path 9140" d="m33.678 29.863-3.957-3.968a.624.624 0 0 0-.147-.11 10.791 10.791 0 1 0-1.886 1.889.721.721 0 0 0 .1.139l3.968 3.966a.62.62 0 0 0 .878 0l1.039-1.039a.62.62 0 0 0 0-.878M21.039 27.3a8.117 8.117 0 1 1 8.116-8.118 8.117 8.117 0 0 1-8.116 8.118m-5.188-8.55v3.35a5.973 5.973 0 0 0 2.168 2.2v-5.573zm4.059-2.779v9.064a5.979 5.979 0 0 0 2.168 0v-9.067zm6.274 6.127v-1.99h-2.167v4.175a5.968 5.968 0 0 0 2.168-2.2z" transform="translate(8.31 6.784)" style="fill:#fff"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+.monitor-container-divider::before {
+    border-top: 0.06rem solid #a3a3a3 !important
+}
+
+.coverage-progress-bar .p-progressbar{
+    height: 0.8rem !important;
+    border-radius: 0% !important;
+    background-color: #d6d6d6;
+}
+
+.coverage_1 .p-progressbar-value {
+    background-color: #f79008 !important;
+}
+.coverage_2 .p-progressbar-value {
+    background-color: #fdb022 !important;
+}
+.coverage_3 .p-progressbar-value {
+    background-color: #ffc84b !important;
+}
+.coverage_4 .p-progressbar-value {
+    background-color: #fedf88 !important;
+}

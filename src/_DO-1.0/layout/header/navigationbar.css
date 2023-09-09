@@ -1,0 +1,17 @@
+.navigation-list{
+    width: 100%;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.navbar-item a:hover, .navbar-item.active-nabar {
+    border-radius: 8px;
+    background-color: var(--secondary-border-color) !important;
+}
+.navbar-item a:hover span, .navbar-item.active-nabar span{
+    color:black!important;
+}
+
+.navigation-list .p-menubar-root-list {
+    gap: 1rem !important;
+}

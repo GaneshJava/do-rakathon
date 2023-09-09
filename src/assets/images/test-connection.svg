@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11.998" height="11.271" viewBox="0 0 11.998 11.271">
+    <defs>
+        <clipPath id="hmtzttcdwa">
+            <path data-name="Rectangle 4162" style="stroke:#fff;fill:none" d="M0 0h11.998v11.271H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 6119">
+        <path data-name="Line 179" transform="translate(3.522 .5)" style="stroke-miterlimit:10;stroke:#000;fill:none" d="M0 0h4.952"/>
+        <path data-name="Path 9154" d="M7.286 3.923V.5H4.713v3.426L2.8 7.029h6.4z" style="stroke-linejoin:round;stroke:#000;fill:none"/>
+        <path data-name="Rectangle 4161" style="fill:none" d="M0 0h11.998v11.271H0z"/>
+        <g data-name="Group 6118">
+            <g data-name="Group 6117" style="clip-path:url(#hmtzttcdwa)">
+                <path data-name="Path 9156" d="M11.5 10.771 9.2 7.029H2.8L.5 10.771z" style="stroke-linejoin:round;stroke:#000"/>
+            </g>
+        </g>
+    </g>
+</svg>

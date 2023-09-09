@@ -1,0 +1,92 @@
+.chart-tools-icons {
+    transform: scale(1.5);
+}
+
+.reset-icon {
+    width: 10px;
+    height: 15px;
+}
+
+.apexcharts-zoomout-icon {
+    transform: none !important;
+}
+
+.apexcharts-zoomin-icon {
+    transform: none !important;
+    margin: 0 5px !important;
+}
+
+.apexcharts-reset-icon {
+    margin: 0 7px !important;
+    transform: none !important;
+}
+
+.chart-card {
+    font-family: RakutenLight !important;
+}
+
+/* .apexcharts-gridline {
+    stroke-width: 0.3px;
+} */
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.table-haeder {
+    display: flex;
+    width: 100%;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-top: 0.4rem;
+}
+
+.highlight {
+    background: rgba(173, 106, 0, 0.8) !important;
+}
+
+.overflow-row {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.table-body {
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    overflow: scroll;
+}
+
+.table_row {
+    display: flex;
+    margin-bottom: 0.6rem;
+    cursor: pointer;
+    padding-right: 0.5rem;
+}
+
+.table_name {
+    background: linear-gradient(to right, #aab3f4 50%, inherit);
+}
+
+.legend-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.legend-container>div {
+    flex: 50%;
+    /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    margin-bottom: 10px;
+}

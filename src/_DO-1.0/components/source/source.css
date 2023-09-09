@@ -1,0 +1,45 @@
+.step-item:not(:first-child):before {
+    @apply content-[''] bg-slate-200 absolute -translate-y-2/4;
+    width: 80%;
+    height: 1px;
+    top: 18%;
+    right: 60%;
+}
+
+.step {
+    @apply w-6 h-6 flex items-center justify-center z-10 relative bg-slate-700 rounded-full font-semibold text-white;
+    background-color: transparent;
+    border: 2px solid #b4b4b4;
+}
+
+.active .step {
+    border: solid 5px #f59600;
+}
+
+.active p {
+    color: #f59600 !important;
+}
+
+.complete .step {
+    background-color: #f59600;
+    border: solid 5px #f59600;
+}
+
+.complete p {
+    color: #f59600 !important;
+}
+
+.complete:not(:first-child):before,
+.active:not(:first-child):before {
+    background-color: #f59600;
+}
+
+.step-item p {
+    color: #b4b4b4;
+}
+
+
+.datasource-fieldset .p-fieldset-content {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.714" height="12.765" viewBox="0 0 12.714 12.765">
+    <defs>
+        <clipPath id="dyup2ns3ga">
+            <path data-name="Rectangle 4121" style="fill:none;stroke:#f59600" d="M0 0h12.714v12.765H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 6172">
+        <g data-name="Group 6023">
+            <g data-name="Group 6022" style="clip-path:url(#dyup2ns3ga)">
+                <path data-name="Rectangle 4120" transform="translate(.5 .5)" style="stroke-linejoin:round;fill:none;stroke:#f59600" d="M0 0h5.848v11.765H0z"/>
+                <path data-name="Line 165" transform="translate(.483 2.836)" style="stroke-linejoin:round;fill:none;stroke:#f59600" d="M0 0h5.883"/>
+            </g>
+        </g>
+        <path data-name="Line 166" transform="translate(2.171 5.691)" style="stroke-linejoin:round;fill:none;stroke:#f59600" d="M0 0h2.507"/>
+        <path data-name="Line 167" transform="translate(2.171 7.589)" style="stroke-linejoin:round;fill:none;stroke:#f59600" d="M0 0h2.507"/>
+        <path data-name="Line 168" transform="translate(2.171 9.488)" style="stroke-linejoin:round;fill:none;stroke:#f59600" d="M0 0h2.507"/>
+        <g data-name="Group 6025">
+            <g data-name="Group 6024" style="clip-path:url(#dyup2ns3ga)">
+                <path data-name="Rectangle 4122" transform="translate(6.366 .5)" style="stroke-linejoin:round;fill:none;stroke:#f59600" d="M0 0h5.848v11.765H0z"/>
+                <path data-name="Line 169" transform="translate(6.348 2.836)" style="stroke-linejoin:round;fill:none;stroke:#f59600" d="M0 0h5.883"/>
+            </g>
+        </g>
+        <path data-name="Line 170" transform="translate(8.036 5.691)" style="stroke-linejoin:round;fill:none;stroke:#f59600" d="M0 0h2.507"/>
+        <path data-name="Line 171" transform="translate(8.036 7.589)" style="stroke-linejoin:round;fill:none;stroke:#f59600" d="M0 0h2.507"/>
+        <path data-name="Line 172" transform="translate(8.036 9.488)" style="stroke-linejoin:round;fill:none;stroke:#f59600" d="M0 0h2.507"/>
+    </g>
+</svg>

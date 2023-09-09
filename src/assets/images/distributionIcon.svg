@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.026" height="13.336" viewBox="0 0 12.026 13.336">
+    <defs>
+        <clipPath id="9zthtoufha">
+            <path data-name="Rectangle 4102" style="fill:none;stroke:#e5e5e5" d="M0 0h12.026v13.336H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 5954">
+        <g data-name="Group 5953" style="clip-path:url(#9zthtoufha)">
+            <path data-name="Path 9062" d="M3.24 7.879a1.6 1.6 0 1 1 0-2.269 1.6 1.6 0 0 1 0 2.269z" style="stroke-miterlimit:10;fill:none;stroke:#e5e5e5"/>
+            <path data-name="Path 9063" d="M7.534 2.959a1.44 1.44 0 1 1 0-2.037 1.441 1.441 0 0 1 0 2.037z" style="stroke-miterlimit:10;fill:none;stroke:#e5e5e5"/>
+            <path data-name="Line 146" transform="translate(3.316 2.959)" style="stroke-miterlimit:10;fill:none;stroke:#e5e5e5" d="M2.181 0 0 2.181"/>
+            <path data-name="Path 9064" d="M10.086 8.2a1.44 1.44 0 1 1 1.44-1.44 1.44 1.44 0 0 1-1.44 1.44z" style="stroke-miterlimit:10;fill:none;stroke:#e5e5e5"/>
+            <path data-name="Line 147" transform="translate(3.708 6.757)" style="stroke-miterlimit:10;fill:none;stroke:#e5e5e5" d="M4.938 0H0"/>
+            <path data-name="Path 9065" d="M5.5 12.414a1.44 1.44 0 1 1 2.037 0 1.441 1.441 0 0 1-2.037 0z" style="stroke-miterlimit:10;fill:none;stroke:#e5e5e5"/>
+            <path data-name="Line 148" transform="translate(3.316 8.197)" style="stroke-miterlimit:10;fill:none;stroke:#e5e5e5" d="M2.181 2.181 0 0"/>
+        </g>
+    </g>
+</svg>

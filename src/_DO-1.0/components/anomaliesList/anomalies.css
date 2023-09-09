@@ -1,0 +1,68 @@
+.expand-split-btn>button {
+    height: 3rem !important;
+    color: var(--primary-btn-text) !important;
+}
+.p-menu .p-menuitem-link:not(.p-disabled):hover {
+    background: var(--quaternary-bg-color)!important;
+}
+/* .anomalies-table, .p-datatable-wrapper > table > tbody > tr {
+    cursor: pointer !important;
+} */
+
+.highlight-divider::before {
+    border-top: 0.11rem solid #fcfdfe !important
+}
+.pending-divider::before {
+    border-top: 0.11rem solid #818284 !important
+}
+
+.rdrDefinedRangesWrapper {
+    display: none;
+  }
+
+.rdrCalendarWrapper{
+    background-color:#292929 !important;
+    border-radius: 4px;
+}
+.rdrDayNumber>span {
+    color: white !important;
+}
+.rdrDayPassive .rdrDayNumber> span {
+    color: gray !important;
+}
+.rdrMonthAndYearPickers select{
+    color: white !important;
+    background-image: url('../../assets/downArrow.svg') !important;
+}
+.rdrDateRangePickerWrapper{
+    border: 1px solid gray;
+}
+.rdrDateDisplayWrapper{
+    background-color: transparent !important;
+}
+.rdrDateDisplayItem{
+    background-color: transparent !important;
+
+}
+.rdrNextPrevButton, .rdrDayToday .rdrDayNumber span:after{
+    background-color: #f79008!important;
+}
+.rdrDateInput{
+    border: 1px solid #f79008 !important;
+}
+
+.rdrDateDisplayItem >input {
+    color: #f79008 !important;
+}
+.rdrInRange {
+    color: var(--quaternary-bg-color) !important;
+}
+.rdrWeekDay .rdrMonthName{
+    color: #b2b8ba !important;
+}
+.rdrSelected, .rdrDayStartPreview.rdrDayEndPreview {
+    color: #f79008 !important;
+}
+.rdrDayHovered {
+    color: #f79008 !important;
+}

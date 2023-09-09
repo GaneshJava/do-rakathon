@@ -1,0 +1,18 @@
+<svg id="Group_5880" data-name="Group 5880" xmlns="http://www.w3.org/2000/svg" width="18.002" height="17.027" viewBox="0 0 18.002 17.027">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f59600;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Path_2244" data-name="Path 2244" class="cls-1" d="M3,6H21V4.5H3Z" transform="translate(-3 -4.5)"/>
+  <path id="Path_2245" data-name="Path 2245" class="cls-1" d="M3,12.75H21v-1.5H3Z" transform="translate(-3 -4.5)"/>
+  <path id="Path_2246" data-name="Path 2246" class="cls-1" d="M3,19.5H15.792V18H3Z" transform="translate(-3 -4.5)"/>
+  <path id="Path_9161" data-name="Path 9161" class="cls-1" d="M4.725,1.5,4.5,1.725,6.345,3.57,4.5,5.415l.225.225L6.8,3.57Z" transform="translate(10.5 10.36)"/>
+  <path id="Path_9161_-_Outline" data-name="Path 9161 - Outline" class="cls-2" d="M4.725.793,7.5,3.57,4.725,6.347l-.932-.932L5.638,3.57,3.793,1.725Z" transform="translate(10.5 10.68)"/>
+</svg>
