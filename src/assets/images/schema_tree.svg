@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.661" height="11.484" viewBox="0 0 14.661 11.484">
+    <defs>
+        <clipPath id="n2sc5rcbxa">
+            <path data-name="Rectangle 4099" style="fill:none;stroke:#7596b7" d="M0 0h14.661v11.484H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 5948">
+        <g data-name="Group 5947">
+            <g data-name="Group 5946" style="clip-path:url(#n2sc5rcbxa)">
+                <path data-name="Rectangle 4095" transform="translate(4.268 .432)" style="stroke-linejoin:round;fill:none;stroke:#7596b7" d="M0 0h6.148v3.069H0z"/>
+                <path data-name="Rectangle 4096" transform="translate(11.161 7.984)" style="stroke-linejoin:round;fill:none;stroke:#7596b7" d="M0 0h3.069v3.069H0z"/>
+                <path data-name="Rectangle 4097" transform="translate(5.796 7.984)" style="stroke-linejoin:round;fill:none;stroke:#7596b7" d="M0 0h3.069v3.069H0z"/>
+                <path data-name="Rectangle 4098" transform="translate(.432 7.984)" style="stroke-linejoin:round;fill:none;stroke:#7596b7" d="M0 0h3.069v3.069H0z"/>
+            </g>
+        </g>
+        <path data-name="Line 144" transform="translate(7.307 3.5)" style="stroke-miterlimit:10;fill:none;stroke:#7596b7" d="M0 0v4.482"/>
+        <path data-name="Path 9057" d="m13.052 8.925-1.507-2.044H3.753L2.247 8.925" transform="translate(-.307 -.942)" style="stroke-linejoin:round;fill:none;stroke:#7596b7"/>
+    </g>
+</svg>

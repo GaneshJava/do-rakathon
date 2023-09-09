@@ -1,0 +1,121 @@
+{
+    "monitor_assets": [
+        {
+            "asset_id": "database_1_$_schema_1_$_asset_one",
+            "conn_id": "conn_1",
+            "entity_level_1": "database_1",
+            "entity_level_2": "schema_1",
+            "entity_level_3": "asset_one",
+            "asset_type": "table",
+            "asset_fields": [
+                {
+                    "field_id": "asset_1.1",
+                    "field_name": "field1_one",
+                    "parent_id": "database_1_$_schema_1_$_asset_one"
+                },
+                {
+                    "field_id": "asset_1.2",
+                    "field_name": "field1_two",
+                    "parent_id": "database_1_$_schema_1_$_asset_one"
+                }
+            ],
+            "monitor_details": {
+                "freshness": [{
+                    "name": "Critical Check - Every 12 hours",
+                    "schedule_time": "",
+                    "description": "description of the Monitor"
+                }]
+            }
+        },
+        {
+            "asset_id": "database_2_$_schema_2_$_asset_two",
+            "conn_id": "conn_2",
+            "entity_level_1": "database_2",
+            "entity_level_2": "schema_2",
+            "entity_level_3": "asset_two",
+            "asset_type": "table",
+            "asset_fields": [
+                {
+                    "field_id": "asset_2.1",
+                    "field_name": "field2_one",
+                    "parent_id": "database_2_$_schema_2_$_asset_two"
+                },
+                {
+                    "field_id": "asset_2.2",
+                    "field_name": "field2_two",
+                    "parent_id": "database_2_$_schema_2_$_asset_two"
+                }
+            ],
+            "monitor_details": null
+        },
+        {
+            "asset_id": "database_3_$_schema_3_$_asset_three",
+            "conn_id": "conn_3",
+            "entity_level_1": "database_3",
+            "entity_level_2": "schema_3",
+            "entity_level_3": "asset_three",
+            "asset_type": "table",
+            "asset_fields": [
+                {
+                    "field_id": "asset_3.1",
+                    "field_name": "field3_one",
+                    "parent_id": "database_3_$_schema_3_$_asset_three"
+                },
+                {
+                    "field_id": "asset_3.2",
+                    "field_name": "field3_two",
+                    "parent_id": "database_3_$_schema_3_$_asset_three"
+                }
+            ],
+            "monitor_details": {
+                "volume": [{
+                    "name": "Volume Check - Every 6 hours",
+                    "schedule_time": "",
+                    "description": "description of the Monitor"
+                }]
+            }
+        },
+        {
+            "asset_id": "database_4_$_schema_4_$_asset_four",
+            "conn_id": "conn_4",
+            "entity_level_1": "database_4",
+            "entity_level_2": "schema_4",
+            "entity_level_3": "asset_four",
+            "asset_type": "table",
+            "asset_fields": [
+                {
+                    "field_id": "asset_4.1",
+                    "field_name": "field4_one",
+                    "parent_id": "database_4_$_schema_4_$_asset_four"
+                },
+                {
+                    "field_id": "asset_4.2",
+                    "field_name": "field4_two",
+                    "parent_id": "database_4_$_schema_4_$_asset_four"
+                }
+            ],
+            "monitor_details": null
+        },
+        {
+            "asset_id": "database_5_$_schema_4_$_asset_five",
+            "conn_id": "conn_5",
+            "entity_level_1": "database_5",
+            "entity_level_2": "schema_5",
+            "entity_level_3": "asset_five",
+            "asset_type": "table",
+            "asset_fields": [
+                {
+                    "field_id": "asset_5.1",
+                    "field_name": "field5_one",
+                    "parent_id": "database_5_$_schema_4_$_asset_five"
+                },
+                {
+                    "field_id": "asset_5.2",
+                    "field_name": "field5_two",
+                    "parent_id": "database_5_$_schema_4_$_asset_five"
+                }
+            ],
+            "monitor_details": null
+        }
+    ]
+}

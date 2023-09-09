@@ -1,0 +1,82 @@
+[
+  {
+    "table_name": "Table1",
+    "no_of_alerts": 27,
+    "freshness": 3,
+    "volume": 0,
+    "distribution": 24,
+    "schema": 24
+  },
+  {
+    "table_name": "Table2",
+    "no_of_alerts": 28,
+    "freshness": 34,
+    "volume": 9,
+    "distribution": 23,
+    "schema": 26
+  },
+  {
+    "table_name": "Table3",
+    "no_of_alerts": 8,
+    "freshness": 8,
+    "volume": 5,
+    "distribution": 18,
+    "schema": 2
+  },
+  {
+    "table_name": "Table4",
+    "no_of_alerts": 10,
+    "freshness": 9,
+    "volume": 7,
+    "distribution": 10,
+    "schema": 18
+  },
+  {
+    "table_name": "Table5",
+    "no_of_alerts": 7,
+    "freshness": 2,
+    "volume": 0,
+    "distribution": 12,
+    "schema": 19
+  },
+  {
+    "table_name": "Table6",
+    "no_of_alerts": 2,
+    "freshness": 20,
+    "volume": 12,
+    "distribution": 19,
+    "schema": 20
+  },
+  {
+    "table_name": "Table7",
+    "no_of_alerts": 3,
+    "freshness": 0,
+    "volume": 5,
+    "distribution": 9,
+    "schema": 2
+  },
+  {
+    "table_name": "Table8",
+    "no_of_alerts": 14,
+    "freshness": 13,
+    "volume": 7,
+    "distribution": 2,
+    "schema": 10
+  },
+  {
+    "table_name": "Table9",
+    "no_of_alerts": 23,
+    "freshness": 8,
+    "volume": 9,
+    "distribution": 13,
+    "schema": 20
+  },
+  {
+    "table_name": "Table10",
+    "no_of_alerts": 29,
+    "freshness": 2,
+    "volume": 21,
+    "distribution": 9,
+    "schema": 17
+  }
+]

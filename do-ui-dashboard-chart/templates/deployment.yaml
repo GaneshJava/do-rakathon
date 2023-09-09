@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: {{ .Values.SERVICE_NAME }}
+  name: {{ .Values.SERVICE_NAME }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ .Values.SERVICE_NAME }}
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.SERVICE_NAME }}
+    spec:
+      containers:
+        - env:
+            - name: REACT_APP_API_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.NAME_CONFIG }}
+                  key: REACT_APP_API_URL
+            - name: REACT_APP_baseURL
+              value: {{ .Values.REACT_APP_baseURL | quote }}
+            - name: REACT_APP_SECURE_LOCAL_STORAGE_HASH_KEY
+              value: {{ .Values.REACT_APP_SECURE_LOCAL_STORAGE_HASH_KEY | quote }}
+            - name: GENERATE_SOURCEMAP
+              value: {{ .Values.GENERATE_SOURCEMAP | quote }}
+            - name: SKIP_PREFLIGHT_CHECK
+              value: {{ .Values.SKIP_PREFLIGHT_CHECK | quote }}
+          image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+          name: {{ .Values.SERVICE_NAME }}
+          ports:
+            - containerPort: {{ .Values.service.port }}
+          resources: {}
+      restartPolicy: Always

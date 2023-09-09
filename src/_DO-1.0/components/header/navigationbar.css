@@ -1,0 +1,12 @@
+.navigation-list{
+    width: 100%;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.navbar-item a:hover {
+    background-color: var(--secondary-border-color) !important;
+}
+.navbar-item a:hover span {
+    color:black!important;
+}

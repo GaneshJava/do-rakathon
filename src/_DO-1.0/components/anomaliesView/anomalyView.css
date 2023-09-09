@@ -1,0 +1,42 @@
+.apexchart-parent-div_freshness .apexcharts-legend .apexcharts-legend-text {
+    font-size: large !important;
+}
+
+.apexchart-parent-div_freshness .apexcharts-legend-marker {
+    border-radius: 0% !important;
+    width: 17px !important;
+    height: 17px !important;
+}
+
+.apexchart-parent-div_freshness .apexcharts-legend-series {
+    display: flex !important;
+    align-items: center;
+    gap: 5px;
+}
+
+.custom-textarea {
+    background-color: #18181b !important;
+    /* Change the background color as desired */
+    border: none !important;
+    outline: none !important;
+    /* Remove the border */
+}
+
+.volumechart-filters .p-dropdown-label.p-inputtext {
+    padding: 8px 0 8px 10px;
+}
+
+.volumechart-filters .p-dropdown-items,
+.p-dropdown-item {
+    padding: 6px 5px !important;
+}
+
+.dq-anomalies-summery-table .p-column-header-content {
+    display: block !important;
+}
+
+.dq-long-table {
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+}

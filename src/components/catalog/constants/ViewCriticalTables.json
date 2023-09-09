@@ -1,0 +1,74 @@
+[
+  {
+    "table_name": "Table1",
+    "service_name": "MySQL001",
+    "service_type": "MySQL",
+    "alerts": 24,
+    "tags": 4,
+    "modified_on": "24.04.22 at 2:10PM",
+    "created_by": "Hemangjit"
+  },
+  {
+    "table_name": "Table2",
+    "service_name": "MySQL001",
+    "service_type": "MySQL",
+    "alerts": 24,
+    "tags": 4,
+    "modified_on": "24.04.22 at 2:10PM",
+    "created_by": "Hemangjit"
+  },
+  {
+    "table_name": "Table3",
+    "service_name": "Snow001",
+    "service_type": "Snowflake",
+    "alerts": 24,
+    "tags": 4,
+    "modified_on": "24.04.22 at 2:10PM",
+    "created_by": "Hemangjit"
+  },
+  {
+    "table_name": "Table4",
+    "service_name": "MySQL001",
+    "service_type": "MySQL",
+    "alerts": 24,
+    "tags": 4,
+    "modified_on": "24.04.22 at 2:10PM",
+    "created_by": "Hemangjit"
+  },
+  {
+    "table_name": "Table5",
+    "service_name": "SNF001",
+    "service_type": "Snowflake",
+    "alerts": 24,
+    "tags": 4,
+    "modified_on": "24.04.22 at 2:10PM",
+    "created_by": "Hemangjit"
+  },
+  {
+    "table_name": "Table6",
+    "service_name": "Snflake001",
+    "service_type": "Snowflake",
+    "alerts": 24,
+    "tags": 4,
+    "modified_on": "24.04.22 at 2:10PM",
+    "created_by": "Hemangjit"
+  },
+  {
+    "table_name": "Table7",
+    "service_name": "MySQL001",
+    "service_type": "MySQL",
+    "alerts": 24,
+    "tags": 4,
+    "modified_on": "24.04.22 at 2:10PM",
+    "created_by": "Hemangjit"
+  },
+  {
+    "table_name": "Table8",
+    "service_name": "MySQL001",
+    "service_type": "MySQL",
+    "alerts": 24,
+    "tags": 4,
+    "modified_on": "24.04.22 at 2:10PM",
+    "created_by": "Hemangjit"
+  }
+]
